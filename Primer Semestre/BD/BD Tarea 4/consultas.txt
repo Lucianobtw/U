@@ -1,0 +1,21 @@
+1)	SELECT a.id_art as "id_art", a.nombre as "Artista", COUNT(a.id_art) as
+"Cantidad Canciones" FROM artistas a INNER JOIN canciones c ON a.id_art =
+c.id_art GROUP BY a.id_art;
+
+2) SELECT album, COUNT(*) as "Numero de canciones" FROM canciones GROUP BY album;
+
+3) 	SELECT YEAR(fecha_lanzamiento) as "año", Count(Year(fecha_lanzamiento)) as "Canciones por año", 
+	GROUP_CONCAT(cancion, " ") as "Canciones" FROM canciones GROUP by Year(fecha_lanzamiento);
+
+
+5)	SELECT COUNT(DISTINCT album) as "cantidad de albumes" FROM canciones;
+
+6) 	SELECT nombre as "Artista", c.cancion, album, fecha_lanzamiento, vendida, valor 
+   	FROM canciones c INNER JOIN artistas a on c.id_art = a.id_art WHERE a.nombre = "Porta";
+
+7) 	SELECT a.nombre, c.cancion, c.fecha_lanzamiento FROM canciones c INNER JOIN artistas a  ON c.id_art = a.id_art WHERE YEAR(fecha_lanzamiento) > 2000;
+
+8)	UPDATE canciones set vendida = (vendida)+10 WHERE id_art = 2
+
+9)	SELECT left(album,6) AS "Album", CONCAT(cancion," ", (YEAR(fecha_lanzamiento))) as "Cancion y Año" FROM canciones;
+

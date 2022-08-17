@@ -1,0 +1,76 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+body .container {
+    color:white;
+    margin: 0;
+    padding: 2% 20%;
+    text-align:justify;
+    background-color: rgb(38, 40, 44);
+}
+
+.Titulo {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.seccion1 a {
+    float: inline-end;
+    padding-bottom: 5rem;
+    text-decoration:underline;
+    font-style: italic;
+}
+
+.seccion1 span {
+    font-style: italic;
+    font-weight: 1000;
+}
+
+.imagen {
+    width: 100%;
+    cursor: pointer;
+}
+
+.imagen:hover {
+    border-style: solid;
+    border: 1%;
+    border-color: blue;
+    cursor: pointer;
+}
+
+.listas a {
+    color: black;
+    padding-inline  : 2rem;
+    text-decoration: none;
+    float: inline;   
+}
+
+.listas li:hover {
+    color:red;
+    cursor: pointer;
+}
+
+.imgs img{
+    text-align: center;
+    padding: 2% 25%;
+    width: 50%;
+}
+
+
+#imgI, #imgII, #imgIII, #imgIV  {
+    display: none;
+    border: 1rem;
+}
+
+.buttons {
+    
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    padding: 2% 20%     ;
+}

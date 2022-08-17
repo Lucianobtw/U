@@ -1,0 +1,31 @@
+3)
+    Estructura
+    ‘’Select colum1, (Select colum1 .. FROM tb1 WHERE Condición) ... FROM tb1 
+    WHERE Condición’’
+
+    SELECT Boleta.IDBoleta,(SELECT Zapatillas.Modelo FROM Zapatillas WHERE Zapatillas.ProductID = Boleta.ProductID) AS  "Sub",Boleta.Total FROM Boleta 
+    WHERE Boleta.Total > 60000;
+
+
+5)
+    Una Subconsulta que incluya un IN
+
+    SELECT B.IDBoleta,Cl.Apellido_Paterno,T.Nombre
+    FROM Boleta B 
+    NATURAL JOIN Cliente Cl
+    NATURAL JOIN Tienda T
+    WHERE B.IDBoleta IN (SELECT B.IDBoleta FROM Boleta B 
+    INNER JOIN Tienda T ON T.ShopID = B.ShopID WHERE T.Nombre = 'NikeStore');
+
+
+6)  Una Subconsulta dentro de una consulta JOIN
+    Estructura
+    Select columna1... FROM tb1 JOIN (Select columna1 ... FROM tb2 WHERE 
+    Condición) AS [Alias]
+
+    SELECT B.IDBoleta,S.Modelo,S.Material
+    FROM Boleta B 
+    INNER JOIN (SELECT Z.ProductID, Z.Modelo, Z.Material FROM Zapatillas Z WHERE 
+    Z.Material = 'Cuero') as S
+    ON B.ProductID = S.ProductID;
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Actualiza Precio Zapatillas</title>
+    <meta charset="utf8" />
+  </head>
+  <body>
+    <h1>Se ingresa un nuevo producto</h1>
+    <form action="insertar.php">
+      Id del producto (ProductID) <input type="text" name="IDProducto" /><br />
+      Modelo <input type="text" name="Modelo" /><br />
+      Stock <input type="text" name="Stock" /><br />
+      Material <input type="text" name="Material" /><br />
+      Precio <input type="text" name="Precio" /><br />
+      Talla <input type="text" name="Talla" /><br />
+      <input type="submit" value="Ingresar" />
+      <br />
+      <br />
+    </form>
+    <h1>Se actualiza el precio de una zapatilla</h1>
+    <form action="actualizar.php">
+      Ingrese Id del producto (ProductID)
+      <input type="text" name="IDProducto" /><br />
+      Ingrese el porcentaje a aumentar el precio
+      <input type="text" name="porcentaje" /><br />
+      <input type="submit" value="Actualizar" />
+      
+    </form>
+  </body>
+</html>
