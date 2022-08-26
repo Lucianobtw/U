@@ -1,4 +1,3 @@
-
 function show(id) {
     
     const x = document.getElementById(id);

@@ -1,0 +1,42 @@
+.footer {
+    background-color: rgb(87, 70, 129);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    width: 80%;
+    height: 5rem;
+    min-height: 5vh;
+    margin: 10%;
+    
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-buttons {
+    
+    align-items: center;
+    list-style: none;
+    width: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    
+}
+
+.footer-buttons li {
+    
+    transition: 0.5s ease;
+    text-decoration: none;
+    
+}
+
+.footer-buttons .img {
+    height: 2rem;
+    width: 2rem;
+    max-width: 4rem;
+    max-height: 4rem;
+    padding-top: 0.2rem;
+}

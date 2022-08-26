@@ -1,0 +1,66 @@
+<article class="article">
+            
+            <section class="Inicio" id="#Inicio">
+
+                <h1 class="Titulo" id="Titulo">Un antivirus gratuito, seguro, libre y multiplataforma.</h1>
+                <h4 class="Subtitulo">Subtitulo Subtitulo Subtitulo Subtitulo Subtitulo Subtitulo Subtitulo </h4>
+                <img src="./img/imgII.png" alt="" class="imagen">
+
+            </section>
+
+            <section class="Productos" id="Productos">
+
+                <h1 class="Titulo" id="Titulo">En XantiVirus tenemos multiples opciones que se acomodan a tus necesidades.</h1>
+                <h4 class="Subtitulo">Subtitulo Subtitulo Subtitulo Subtitulo Subtitulo Subtitulo Subtitulo </h4>
+                <img src="./img/imgIII.png" alt="" class="imagen">
+
+            </section>
+
+            <section class="Quienes" id="Quienes">
+
+                <h1 class="Titulo" id="Titulo">Protegemos tu dispositivo, somos XantiVirus</h1>
+                <h4 class="Subtitulo">Ya sea defendiendo tu privacidad, tu identidad, o bloqueando amenazas. Siempre estaremos contigo.</h4>
+                <img src="./img/imgIV.png" alt="" class="imagen">
+
+            </section>
+
+            <section class="Contacto" id="Contacto">
+                
+                <h1 class="Titulo" id="Titulo">En XantiVirus brindamos soporte las 24h del dia, sientete acompañado, sientete seguro.</h1>
+                <h4 class="Subtitulo">Subtitulo Subtitulo Subtitulo Subtitulo Subtitulo Subtitulo Subtitulo </h4>
+                <img src="./img/imgV.png" alt="" class="imagen">
+
+                <form>
+
+                    <input placeholder="Nombre Completo" type="text">
+                    <input placeholder="Correo Electronico" type="text">
+                    <input placeholder="Numero Telefonico" type="text">
+
+                    <button href=index.html type="submit" id="submit">Enviar datos</button>
+
+                </form>
+
+            </section>
+
+</article>
+
+
+<footer class="footer">
+
+    <nav class="nav">
+
+        <ul class="footer-buttons">
+
+            <li class="footerlogo">XantiVirus</li>
+            <li class="footer-button">Inicio</li>
+            <li class="footer-button">Productos y Servicios</li>
+            <li class="footer-button">Quienes Somos</li>
+            <li class="footer-button">Contacto</li>
+        
+        </ul>
+
+    </nav>
+
+</footer>
+
+

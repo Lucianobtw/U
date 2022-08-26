@@ -1,0 +1,4 @@
+//robots.txt es un archivo de texto que se usa para restringir el acceso de los buscadores
+//(principalmente google) a una determinada página web.
+
+//En este archivo se especifican las rutas que no se quieren que sean indexadas por los
