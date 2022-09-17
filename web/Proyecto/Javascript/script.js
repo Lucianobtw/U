@@ -1,11 +1,10 @@
 
-document.getElementById("submit").onclick = function() {alerta()}; 
 
-/* se obtiene el boton de id "submit" y al suceder el evento onclick se ejecuta la función alerta()*/
-
-function alerta() {
+document.getElementById("datos").addEventListener('submit', function(event){
+  
+  event.preventDefault();
 
   alert("Tus datos de contacto se han enviado correctamente.");
 
-}
+});
 
