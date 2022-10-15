@@ -104,8 +104,8 @@ def Mapa_Init(AnchoX,AnchoY):
 #====================================================================================================#
 
 def Tiles_Init():
-    return [[0 for i in range(0,maxX/tileX)] \
-                                for i in range(0,maxY/tileY)]
+    return [[0 for i in range(0,maxX//tileX)] \
+                                for i in range(0,maxY//tileY)]
 
 #====================================================================================================#
 #                                        Funcion "TilesOnMap"                                        #

@@ -6,24 +6,19 @@
     width: 100%;
     height: 5rem;
     padding: 1rem 0rem;
-
 }
 
 .footer-nav {
-
     display: flex;
     align-items: center;
     padding: 0 1rem;
     width: inherit;    
-
 }
 
 .footer-text {
-
     display: flex;
     list-style: none;
     justify-content: flex-start;
-    
 }
 
 .footer-text li {
@@ -31,26 +26,20 @@
 }
 
 .links {
-    
     align-items: center;
     list-style: none;
     width: inherit;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    
-    
 }
 
 .links li {
-
     padding: 0.5rem 1.5rem;
     transition: 0.5s ease;
     text-decoration: none;
-
 }
 
 .links img {
-
     width: 1.5rem;
 }

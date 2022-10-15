@@ -7,9 +7,6 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     margin: 0;
     background-color: rgb(51, 51, 51);
     color: white;
@@ -17,52 +14,48 @@ body {
 
 main {
     padding: 10rem 5rem 5rem;
-    text-align: justify;
-    
-}
-
-.container {
     height: 100%;
 }
 
-h1 {
-    padding-bottom: 2rem;
-}
-
-h2 {
+h1, h2 {
     padding-bottom: 1rem;
 }
 
-main img {
-
-    width: 80%;
-    cursor: pointer;
-    padding: 0rem 5rem;
-}
-
 .article {
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr;
-    grid-gap: 2rem;
+    grid-gap: 5rem;
+    margin: 2rem 2rem;
 
 }
 
-.Historia {
-
-    padding: 5rem 5rem;
-}
-
-.Biografias {
-
-    padding: 5rem 5rem;
+.imagen {
+    border-radius: 1rem;
 }
 
 
 
-.Biografias .nombres{
+.t-history {
+    margin: 1rem 0rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
 
-    padding: 1rem 0rem;
-    
+.integrante p {
+    margin: 1rem 0rem;
+    font-size: 1rem;
+    font-style: normal;
+}
+
+#TeamImg {
+    width: 80%;
+}
+
+.fleximg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

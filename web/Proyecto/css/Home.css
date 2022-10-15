@@ -1,5 +1,7 @@
+/* normalize.css sirve para normalizar los parametros, se linkea en el header */
+
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 * {
@@ -7,51 +9,49 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(60, 60, 60);
     color: white;
 }
 
 main {
     padding: 10rem 5rem 5rem;
     text-align: justify;
-    
-}
-
-.container {
     height: 100%;
 }
 
-h1 {
+h1,
+h2 {
     padding-bottom: 2rem;
 }
 
-h2 {
-    padding-bottom: 1rem;
+.imgR {
+    margin-left: 10rem;
 }
 
-main img {
-
-    width: 100%;
+.imagen {
+    width: 90%;
     cursor: pointer;
-}
-
-#multi {
-    padding: 3rem 0rem;
-}
-
-.multitext {
-
-    padding: 5rem 0rem;
+    border-radius: 1rem;
 }
 
 .article {
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr;
-    grid-gap: 2rem;
+    grid-row-gap: 5rem;
+    margin-top: 1rem;
+}
 
+.t-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    margin: 2rem;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.5;
 }
