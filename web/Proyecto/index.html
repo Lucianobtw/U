@@ -1,134 +1,64 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Defender - Login</title>
+        <link rel="icon" href="./img/Logo.png" />
+        <link rel="stylesheet" href="./css/index.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/Home.css">
-    <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="./img/Logo.png">
-    <script src="./Javascript/funciones.js"></script>
-    <title>Defender - Home</title>
-</head>
-
-
-<body>
-
-    <header class="header">
-
-        <nav class="nav">
-
-            <ul class="navlogo">
-                <li><img id="logo" src="./img/Logo.png" alt="No Logo"></li>
-                <li><a class="logotxt">Defender</a></li>
-            </ul>
-
-            <ul class="nav-buttons">
-                <li class="nav-button"><a href="./index.html">Inicio</a></li>
-                <li class="nav-button"><a href="./Productos.html">Productos</a></li>
-                <li class="nav-button"><a href="./Quienes.html">Quienes somos</a></li>
-                <li class="nav-button"><a href="./Contacto.html">Contacto</a></li>
-            </ul>
-
-        </nav>
-
-    </header>
-
-    <main class="container">
-
-        <h1>Un antivirus gratuito, seguro, libre y multiplataforma</h1>
-        <hr><br>
-
-        <article class="article">
-
-            <section class="imgL">
-                <img src="./img/imgV.png" alt="" class="imagen">
+    <body>
+        <div class="div-box" id="login-box">
+            <section class="right" id="r1">
+                <img src="./img/Logo.png" alt="" />
             </section>
 
-            <section class="t-cont">
-                <p class="text">Defender es un antivirus gratuito por lo que no deberás preocuparte por pagos y
-                    licencias para poder usarlo. Defender es un antivirus seguro, ya que no recopila datos personales de los usuarios y no tiene acceso a la cámara, micrófono o gps. 
-                    Defender es un antivirus libre, ya que su código fuente es abierto y se puede modificar a voluntad. <br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Ex autem molestias perspiciatis obcaecati omnis odit iste laborum nostrum dolor error, et, 
-                    qui facere officiis quas eaque dolores maxime enim voluptatibus odio libero eligendi nihil 
-                    laudantium neque assumenda. Ea tempora quisquam necessitatibus maiores ex incidunt quod nobis saepe 
-                    aliquid ab modi repudiandae sit quae dolore omnis, iusto eos fugiat possimus deserunt, reprehenderit
-                    provident rem qui. Quis cumque harum eius ratione aperiam, officia voluptas vitae unde ad aliquid eaque 
-                    tempore quaerat porro debitis veritatis repellendus, quae ut sequi mollitia odio voluptatibus. Debitis cum 
-                    dignissimos inventore sint eum reprehenderit aperiam totam, doloremque, esse perferendis sunt nobis accusantium,
-                    eligendi iste molestias illum exercitationem ut. Non iste harum, aut consequuntur, quia perspiciatis facilis numquam, 
-                    iusto ratione ad animi pariatur esse perferendis laudantium totam sint maxime aliquid culpa eum! Pariatur obcaecati magni
-                    minus dicta, error illo ipsam porro tempora unde quis quisquam maiores eligendi repellendus mollitia placeat architecto 
-                    provident, modi voluptatibus voluptatem, reiciendis id. Enim quae, saepe laboriosam quaerat quod itaque molestias ab 
-                    adipisci possimus ex sequi veniam voluptas, reiciendis dicta, voluptatum accusantium? Animi obcaecati, magnam 
-                    reprehenderit recusandae deserunt optio labore voluptatibus dolorum est id qui fuga rem cumque aliquid omnis pariatur. 
-                    Rerum quaerat quas laboriosam.</p>
-                </p>
+            <section class="left" id="l1">
+                <div class="top">
+                    <h2 class="titulo">Welcome!</h2>
+                </div>
+
+                <form id="form-login" class="form" method="POST">
+                    <input class="input" type="text" placeholder="Example: JohnMc" name="Username" />
+                    <input class="input" type="password" placeholder="Example: Mypassword#21" name="Password" />
+                </form>
+
+                <div class="buttons">
+                    <span id="sign-span">Don't have an account?</span>
+                    <button class="indexbtn" id="btnLogin">Log in</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="div-boxx" id="signin-box">
+            <section class="right" id="r1">
+                <img src="./img/Logo.png" alt="" />
             </section>
 
-            <section  class="t-cont">
-                <p class="text">Defender es un antivirus seguro, ya que cuenta con un sistema de protección contra
-                    virus, spyware, rootkits, troyanos, gusanos, etc. <br><br> Además trabajamos en base a tus reportes, cualquier nueva amenaza será abordada de la manera mas minuciosa posible. <br><br>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, rem! Provident odit cumque voluptates natus error sunt! Quaerat commodi optio cum molestiae dolor obcaecati quam ea, a at voluptatem! Quidem in, quaerat autem ipsa rerum ipsam commodi culpa sint et dolor saepe quis iure est, facilis molestias modi necessitatibus voluptates veritatis laudantium quas accusantium earum odio repellat placeat? Reiciendis blanditiis quae eaque aliquam, explicabo adipisci est qui amet! Ratione incidunt maxime molestiae temporibus quia aspernatur repellat voluptate sunt earum architecto, culpa inventore. Ea est magni facere totam commodi! Libero illum voluptas excepturi sequi porro et, inventore alias voluptatibus maiores dicta?
+            <section id="l2" class="left">
 
-                </p>
+                <div class="top">
+                    <h2 class="titulo">Sign Up</h2>
+                </div>
 
+                <form id="form-sign" class="form" method="POST">
+                    <input type="text" name="rut" id="newrut" placeholder="Example: 20352908" />
+                    <input type="text" name="newuser" id="s-user" placeholder="Example: JohnMctavish" />
+                    <input type="email" name="newemail" id="s-email" placeholder="Example: Mctavish@John.com" />
+                    <input type="password" id="s-pass" name="newpass" placeholder="mypassword"/>
+                    <input type="password" id="s-pass2" placeholder="mypassword"/>
+                </form>
+    
+                <div class="buttons">
+                    <span id="log-span">Already have an account?</span>
+                    <button class="indexbtn" id="btnSignin">Sign Up</button>
+                </div>
             </section>
+        </div>
 
-            <section class="imgR">
-                <img src="./img/imgIII.png" alt="" class="imagen">
-            </section>
-
-            <section class="imgL">
-                <img src="./img/imgV.png" alt="" class="imagen">
-            </section>
-
-            <section class="t-cont">
-                <p class="text">Defender es un antivirus libre, ya que puedes descargarlo y usarlo sin ningún tipo de
-                    restricción. <br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, beatae ipsam fugit et optio sequi doloribus saepe nostrum hic ad eveniet odit quaerat deserunt soluta perspiciatis, a harum officia magnam, dolorem rem quam. Deleniti minima maxime iste in consequatur similique assumenda sint? Cumque ducimus deserunt quaerat distinctio molestiae possimus quia. Vero repellat debitis magnam asperiores perferendis nihil consectetur earum reiciendis possimus dolore reprehenderit facere nesciunt commodi voluptatem dicta unde alias, rerum et, porro inventore hic quis! Explicabo recusandae repellendus aperiam cupiditate nostrum provident nihil consectetur, architecto repellat a tempora maxime laudantium debitis deserunt nam cumque eos similique dolor quibusdam, libero animi soluta minus, totam reprehenderit. Exercitationem, vel rerum! Ex molestiae laborum architecto? Hic voluptas officiis, numquam voluptatum magni culpa vero esse, possimus velit maxime optio dignissimos porro natus, blanditiis fugiat commodi ex. Dolor obcaecati ex maxime mollitia libero ullam veritatis non eius harum recusandae perferendis, delectus odit. Ducimus, est. Consequatur amet ipsum aliquam facilis aut necessitatibus expedita ducimus magni quibusdam assumenda, unde explicabo! Eius, hic reiciendis saepe harum minus fuga debitis magnam ipsam accusamus veritatis in nobis natus velit? Ad commodi in aperiam eligendi natus, nostrum unde error autem rerum facilis doloribus ipsam obcaecati perferendis inventore consequuntur fugiat quas necessitatibus!
-                </p>
-            </section>
-
-            <section class="t-cont">
-                <p class="text">
-                    Defender es un antivirus multiplataforma, ya que puedes usarlo en Windows, Linux y MacOS. <br><br>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, soluta saepe velit repudiandae illum sunt tempore in, repellat qui, eos magnam dicta possimus odio facere tenetur unde! Minus ducimus incidunt dolorum earum ratione excepturi, neque aliquid, sapiente fugiat hic non fuga distinctio officiis optio reprehenderit quo quia natus error deserunt voluptatibus? Quisquam nulla voluptatum tenetur praesentium, tempora illo dolorum dolorem tempore voluptatibus ducimus, fuga suscipit accusamus sed aut ipsum rem omnis quibusdam, doloremque architecto enim cumque exercitationem. Consectetur eligendi accusamus, distinctio eius sit esse itaque numquam tempora quidem ducimus facilis sed vero minus voluptates fuga. In, adipisci mollitia! Accusantium, molestiae.
-                </p>
-            </section>
-
-            <section class="imgR">
-                <img src="./img/imgIII.png" alt="" class="imagen">
-            </section>
-
-        </article><br>
-        <hr>
-
-    </main>
-
-    <footer class="footer">
-
-        <nav class="footer-nav">
-
-            <ul class="footer-text">
-                <li>Defender</li>
-                <li>Copyright</li>
-            </ul>
-
-            <ul class="links">
-                <li><a href="facebook.com"><img src="./img/facebook.png" alt=""></a></li>
-                <li><a href="instagram.com"><img src="./img/instagram.png" alt=""></a></li>
-                <li><a href="teitter.com"></a><img src="./img/twitter.png" alt=""></li>
-            </ul>
-
-        </nav>
-
-    </footer>
-    <script src="./Javascript/variables.js"></script>
-
-</body>
-
+        <script src="./Javascript/Login.js"></script>
+        <script src="./Javascript/InsertUsuario.js"></script> 
+    </body>
 </html>

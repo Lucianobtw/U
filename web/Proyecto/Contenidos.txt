@@ -1,0 +1,38 @@
+Funciones sincronas:
+
+Las funciones sincronas se ejecutan con datos existentes en el codigo js, como por ejemplo un array.
+
+Funciones asincronas:
+
+Las funciones asincronas se ejecutan con datos que se obtienen de una fuente externa, como por ejemplo una base de datos
+para esto se utilizan las llamadas promesas o callbacks, que son funciones que se ejecutan cuando se obtienen los datos de la fuente externa.
+
+async y await:
+
+Async y await son metodos de js que se utilizan para trabajar con promesas.
+En este caso, mediante fetch solicitamos los datos de la bd, y con await se 
+esperara a que lleguen los datos para ejecutar el resto de la funcion.
+
+
+JSON - Javascript Object Notation:
+
+JSON es un array nativo de Javascript pero con el tiempo se volvio en un estandar para manejar datos a traves de
+distintos lenguajes de programación
+
+
+Fetch:
+
+La API Fetch proporciona una interfaz JavaScript para acceder y manipular partes del canal HTTP, 
+tales como peticiones y respuestas. También provee un método global fetch() que proporciona
+una forma fácil y lógica de obtener recursos de forma asíncrona por la red.
+
+Fetch asocc :
+
+Devuelve un array asociativo de strings que representa a la fila obtenida del conjunto de resultados, 
+donde cada clave del array representa el nombre de una de las columnas de éste; o null si no hubieran más filas en dicho conjunto de resultados.
+
+Json.parse : 
+
+El método JSON. parse() analiza una cadena de texto como JSON, transformando opcionalmente el valor producido por el análisis.
+
+
