@@ -1,0 +1,132 @@
+Para setear teclado en español durante la instalacion utiliza el siguiente comando:
+
+    - "loadkeys es"
+
+Si no te funciona, prueba con:
+
+    - "loadkeys es-latin1"
+
+Verificar conexion a internet:
+
+    - "ping www.google.com"
+
+Crear particiones con herramienta "cfdisk":
+
+    - "fdisk -l" -> permitira ver informacion del disco y las particiones actuales
+
+    - "cfdisk /dev/x" -> permitira crear las particiones (x) es el disco donde se instalará el sistema
+
+Si aparece un menu de opciones... seleccionar "DOS"
+
+Crear particiones: Para todas las particiones seleccionar primary
+
+    - /dev/x1 -> /boot -> 512M -> Type = Linux -> Booteable (marcar asterico en Booteable) 
+    - /dev/x2 -> /     -> 25G  -> Type = Linux
+    - /dev/x3 -> swap  -> 2G   -> Type = Linux swap / Solaris
+
+Formatear particiones y asignar sistema de archivos:
+
+    - Formatear /dev/x1 (boot) -> "mkfs.ext2 /dev/x1" -> (Formato ext2)
+    - Formatear /dev/x2 (/)    -> "mkfs.ext4 /dev/x2" -> (Formato ext4)
+    - Formatear /dev/x3 (swap) ->  "mkswap /dev/x3"   -> (Formato swap)
+
+Montar particiones:
+
+    - Montar Raiz (/) -> "mount /dev/x2 /mnt"
+    - Crear carpeta /boot -> "mkdir /mnt/boot"
+    - Montar /boot -> "mount /dev/x1 /mnt/boot"
+    - Activar swap -> "swapon /dev/x3"
+
+    Si se desea puedes crear la carpeta /home:
+
+        - "mkdir /mnt/home"
+
+
+Instalar sistema base y paquetes (Kernel, editor, etc):
+
+    - Actualizar repositorios y credenciales -> "pacman -Sy archlinux-keyring"
+
+    - "pacstrap /mnt linux linux-firmware base base-devel vim grub dhcpcd networkmanager netctl wpa_supplicant dialog"
+
+
+Generar Fstab (Fstab es el registro de discos y particiones del sistema):
+
+    - "genfstab /mnt >> /mnt/etc/fstab"
+    - "cat /mnt/etc/fstab" -> para verificar que se genero correctamente
+
+Entrar al sistema:
+
+    - "arch-chroot /mnt"
+
+Asignar hostname:
+
+    - "echo "pcname" > /etc/hostname"
+
+Asignar zona horaria:
+    
+    - "ln -sf /usr/share/zoneinfo/America/Santiagp /etc/localtime"
+
+Configurar reloj:
+
+    - "hwclock -w"
+    - "date" -> para verificar que se configuro correctamente
+
+Instalar gestor de arranque "GRUB":
+
+    - "grub-install /dev/x" (Instalar en particion x1 (boot))
+
+Configurar Grub:
+
+    - "grub-mkconfig -o /boot/grub/grub.cfg"
+
+Crear clave root (contraseña):
+
+    - "passwd" -> solicitará la contraseña 
+
+
+Crear usuario:
+
+    -useradd -m "username"
+
+Crear clave usuario:
+
+    - "passwd Nicolas" -> solicitará la contraseña
+
+Salir y desmontar particiones:
+    
+    - "exit" -> para salir del sistema
+    - "umount -R /mnt" -> para desmontar particiones
+    - "reboot" -> para reiniciar el sistema
+
+Una vez reiniciado el sistema, se debe ingresar con el usuario y contraseña creados.
+
+Activar servicios:
+
+    - "systemctl start NetworkManager" -> para iniciar el servicio de red
+    - "systemctl enable NetworkManager" -> para activar el servicio de red
+
+    - "ping www.google.com" -> para verificar conexion a internet
+
+Instalar Xorg (Servidor grafico):
+
+    - "pacman -S xorg-server xorg-xinit" -> para instalar Xorg
+
+Instalar drivers de video:
+
+    - "pacman -S xf86-video-intel" -> para tarjetas Intel
+    - "pacman -S xf86-video-amdgpu" -> para tarjetas AMD
+    - "pacman -S xf86-video-nouveau" -> para tarjetas Nvidia
+
+    - "pacman -S mesa" -> para drivers de video genericos (USAR ESTE EN VRBOX)
+
+Instalar entorno grafico:
+
+    - "pacman -S gnome" -> para instalar Gnome
+    - "pacman -S kde-plasma-desktop" -> para instalar KDE
+    - "pacman -S xfce4" -> para instalar XFCE
+    - "pacman -S mate" -> para instalar Mate
+
+Instalar Gestor de Inicio de sesion:
+
+    - "pacman -S lightdm lightdm-gtk-greeter" -> para instalar LightDM
+    - "systemctl enable lightdm" -> para activar LightDM

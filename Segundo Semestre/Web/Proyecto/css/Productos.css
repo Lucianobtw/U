@@ -1,0 +1,73 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+main {
+    padding: 10rem 5rem;
+    height: 100vh;
+}
+
+p {
+    text-align: justify;
+}
+
+hr {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+
+h3 {
+    padding: 1rem 0rem;
+}
+
+.article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-gap: 2rem;
+}
+
+.tables {
+    grid-column: 1 / 3;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.texto {
+    padding: 1rem 2rem;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid;
+    height: 5rem;
+}
+
+.ticket {
+    max-width: 20px;
+}
+
+table td {
+    text-align: center;
+}

@@ -1,0 +1,5 @@
+crea un archivo de texto en la raiz de mi usuario (el cual obtiene mediante whoami)
+luego obtiene información general del sistema y la redirecciona al archivo de texto soypillan.txt
+
+ 
+

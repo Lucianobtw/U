@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Defender - Login</title>
+        <link rel="icon" href="./img/Logo.png" />
+        <link rel="stylesheet" href="./css/index.css" />
+    </head>
+
+    <body>
+        <div class="div-box" id="login-box">
+            <section class="right" id="r1">
+                <img src="./img/Logo.png" alt="" />
+            </section>
+
+            <section class="left" id="l1">
+                <div class="top">
+                    <h2 class="titulo">Welcome!</h2>
+                </div>
+
+                <form id="form-login" class="form" method="POST">
+                    <input class="input" type="text" placeholder="Example: JohnMc" name="Username" />
+                    <input class="input" type="password" placeholder="Example: Mypassword#21" name="Password" />
+                </form>
+
+                <div class="buttons">
+                    <span id="sign-span">Don't have an account?</span>
+                    <button class="indexbtn" id="btnLogin">Log in</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="div-boxx" id="signin-box">
+            <section class="right" id="r1">
+                <img src="./img/Logo.png" alt="" />
+            </section>
+
+            <section id="l2" class="left">
+
+                <div class="top">
+                    <h2 class="titulo">Sign Up</h2>
+                </div>
+
+                <form id="form-sign" class="form" method="POST">
+                    <input type="text" name="rut" id="newrut" placeholder="Example: 20352908" />
+                    <input type="text" name="newuser" id="s-user" placeholder="Example: JohnMctavish" />
+                    <input type="email" name="newemail" id="s-email" placeholder="Example: Mctavish@John.com" />
+                    <input type="password" id="s-pass" name="newpass" placeholder="mypassword"/>
+                    <input type="password" id="s-pass2" placeholder="mypassword"/>
+                </form>
+    
+                <div class="buttons">
+                    <span id="log-span">Already have an account?</span>
+                    <button class="indexbtn" id="btnSignin">Sign Up</button>
+                </div>
+            </section>
+        </div>
+
+        <script src="./Javascript/Login.js"></script>
+        <script src="./Javascript/InsertUsuario.js"></script> 
+    </body>
+</html>
