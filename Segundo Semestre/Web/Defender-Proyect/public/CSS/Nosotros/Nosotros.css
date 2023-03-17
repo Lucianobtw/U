@@ -1,0 +1,58 @@
+html {
+    background-color: rgb(41, 41, 41);
+}
+
+body {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.385), rgba(0, 0, 0, 0.385)), url("../../assets/img/contactobg.jpg");
+}
+
+main {
+    padding: 15rem 5rem 2rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.2fr;
+    grid-gap: 1rem;
+    place-items: center;
+    place-content: center;
+}
+
+
+
+#nosotros-box {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 1fr 0.8fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    background-color: rgb(41, 41, 41);
+    box-shadow: rgba(0, 0, 0, 0.409) 9px 6px 10px;
+}
+
+.nos-grids {
+    background-color: #fff;
+    color: #010101;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#r1,
+#r2 {
+    grid-column: 1 / 4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#l1,
+#l2 {
+    grid-column: 4 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    grid-column: 1 / 5;
+    background-color: rgb(87, 70, 129);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/Index/login.css">
+    <link rel="stylesheet" href="../CSS/Index/signup.css">
+    <link rel="shortcut icon" href="../assets/img/Logo.png" type="image/x-icon">
+    <title>Defender</title>
+</head>
+
+<body>
+    <div class="div-box" id="login-box">
+        <section class="left" id="r1">
+            <img src="../assets/img/Logo.png" alt="" />
+        </section>
+
+        <section class="right">
+            <div class="top">
+                <h2 class="titulo">Welcome!</h2>
+            </div>
+
+            <form id="form-login" class="form" method="POST">
+                <input class="input" id="logUser" type="text" placeholder="Example: JohnMc" name="Username" />
+                <input class="input" id="logPass" type="password" placeholder="Example: Mypassword#21"
+                    name="Password" />
+            </form>
+
+            <div class="buttons">
+                <span id="signup-span">Don't have an account?</span>
+                <button class="indexbtn" id="btn-login">Log in</button>
+            </div>
+
+            <div id="responselog"></div>
+        </section>
+    </div>
+
+    <div class="div-sign" id="signup-box">
+
+        <div class="top">
+            <h2 class="titulo">Sign Up!</h2>
+        </div>
+
+        <div class="bottom">
+            <form id="form-sign" class="form-sign" method="POST">
+                <input type="number" name="rut" id="newrut" placeholder="Example: 20352908" />
+                <input type="text" name="newuser" id="s-user" placeholder="Example: JohnMctavish" />
+                <input type="email" name="newemail" id="s-email" placeholder="Example: Mctavish@John.com" />
+                <input type="password" id="s-pass" name="newpass" placeholder="mypassword" />
+                <input type="password" id="s-pass2" placeholder="mypassword" />
+            </form>
+
+            <div class="buttons" id="btns">
+                <span id="log-span">Already have an account?</span>
+                <button class="indexbtn" id="btn-signup">Sign Up</button>
+            </div>
+        </div>
+
+        <div id="response"></div>
+    </div>
+    <script src="../Javascript/User/index.js"></script>
+    <script src="../Javascript/User/Login.js"></script>
+    <script src="../Javascript/User/Signup.js"></script>
+</body>
+
+</html

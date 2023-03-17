@@ -1,0 +1,15 @@
+Los patrones de diseño son soluciones generales a problemas comunes de diseño de software. 
+Estos patrones proporcionan un enfoque probado para diseñar y desarrollar software que es flexible, reutilizable y fácil de mantener.
+
+Un patrón de diseño describe un problema específico que ocurre con frecuencia en el diseño de software, 
+y proporciona una solución estructurada y bien definida para resolver ese problema.
+Los patrones de diseño se han recopilado y documentado a lo largo de los años por expertos en el campo del desarrollo de software, 
+y se utilizan ampliamente en la industria para mejorar la calidad y la eficiencia del software.
+
+Los patrones de diseño pueden ser aplicados en diferentes niveles de abstracción en el diseño de software, 
+desde la arquitectura general del sistema hasta la implementación detallada de clases y objetos. 
+Al utilizar patrones de diseño, los desarrolladores pueden aprovechar soluciones probadas y mejorar la calidad y la eficiencia del software.
+
+Es importante tener en cuenta que los patrones de diseño no son soluciones universales para todos los problemas de diseño de software. 
+Cada patrón de diseño tiene sus propias ventajas y limitaciones, y debe ser utilizado de manera apropiada y cuidadosa. Además, 
+la elección de un patrón de diseño adecuado para un problema específico requiere conocimiento y experiencia en el campo del diseño de software.

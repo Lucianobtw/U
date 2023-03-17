@@ -36,5 +36,4 @@ public class Propietario {
                 ", name='" + getName() + "'" +
                 "}";
     }
-
 }

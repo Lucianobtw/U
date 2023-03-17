@@ -1,0 +1,43 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.703), rgba(0, 0, 0, 0.694)), url("../../assets/img/HomeBACK.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66.7vh;
+    grid-gap: 1rem;
+
+    padding: 13rem 10rem 7rem 10rem;
+}
+
+.div-img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+
+}
+
+.div-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.info-div {
+    grid-column: 3/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+    gap: 1rem;
+
+}
