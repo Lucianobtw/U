@@ -1,0 +1,37 @@
+
+
+1. Escenario catastrófico:
+
+    En un hospital durante la toma de muestras de pacientes el software que transmite 
+    la información desde un punto A a un punto B (Farmacia) falla y los datos se mezclan 
+    haciendo que cada a persona examinada se le designe un medicamento que no es el que le corresponde.  
+
+    Este escenario es catastrófico a nivel humanitario ya que, si los medicamentos son entregados erróneamente
+    se puede dar el caso de una alergia/reacción negativa de una persona y pensando en lo peor, la muerte.
+
+2. Estructura de proceso
+
+    Es la lista de actividades o preguntas definidas para cualquier proyecto de software que permiten desarrollar 
+    de manera estructurada y completa el proceso de la creación del producto a lo largo de todo el proceso 
+    (no solo a nivel de programación, si no también de planificación u otros).
+
+3. Actividades estructurales
+    Dentro de un proyecto pueden haber variaciones con respecto a las actividades estructurales pero las tareas a desarrollar 
+    si serán las aplicables, ya que esta forma de hacerlo nos da bastante ayuda al momento de sacar adelante un proyecto 
+    aunque este sea muy complejo o no mucho, ya que dentro de un equipo de trabajo, hace que este siempre se mantenga comunicado 
+    y que en caso de tener algún inconveniente, todos los miembros de grupo estén al tanto.
+
+4. Mitos:
+
+    Mito 1: A la hora de desarrollar y producir los diagramas no aportan en nada.
+
+    Realidad: Los diagramas UML ayudan a personas externas al desarrollo a entender de mejor manera el funcionamiento del software. 
+    Y en cuanto a los desarrolladores, ayuda desde el dia 1 a organizar y 
+    pre visualizar el enfoque del proyecto.
+
+    Mito 2: Da lo mismo la escalabilidad del software, solo necesitamos terminar el producto.
+
+    Realidad: Siempre se debe pensar en la escalabilidad del proyecto, ya que durante el desarrollo pueden surgir nuevas peticiones 
+    que requieran modificar el software. Es por esto que una mala escalabilidad y modulación del código impide este trabajo.
+
+

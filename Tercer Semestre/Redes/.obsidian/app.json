@@ -1,0 +1,16 @@
+{
+  "promptDelete": false,
+  "livePreview": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showFrontmatter": false,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "spellcheck": true,
+  "legacyEditor": false,
+  "defaultViewMode": "preview",
+  "spellcheckLanguages": [
+    "es-ES"
+  ],
+  "attachmentFolderPath": "./"
+}

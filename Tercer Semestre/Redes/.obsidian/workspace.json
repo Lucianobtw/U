@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "ee14d9654207b7ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1a478eef6735c0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09a2b10ce2774b46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cc0869c517fc73ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b2d7d1a9563f030",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac7428354ecdced9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "23496d08e40aa8d6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c10ec1bacebd37cc",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3bc1d2a941d4e8dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "7476909ebe04e799",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb5571a47e329445",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46bd221c635ea3e9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d918326bea1a607",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3b84e7a8ed63680a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "282a533da0f2d79e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b6603c847e4465c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 390.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "open-vscode:VSCode": false
+    }
+  },
+  "active": "1d918326bea1a607",
+  "lastOpenFiles": [
+    "2023-03-20.md",
+    "Apuntes/Comunicación de datos.md",
+    "Apuntes/URL.md",
+    "Apuntes/Modelo OSI.md",
+    "git.md",
+    "Apuntes/Images",
+    "Apuntes/Images/Pasted image 20230320204550.png",
+    "Apuntes/conceptos.md",
+    "Documentos/Comunicaciones_de_datos.pdf"
+  ]
+}

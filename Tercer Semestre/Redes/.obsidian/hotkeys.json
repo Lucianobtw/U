@@ -1,0 +1,12 @@
+{
+  "obsidian-editor-shortcuts:deleteLine": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "X"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToNextLine": [],
+  "editor:open-link-in-new-leaf": []
+}

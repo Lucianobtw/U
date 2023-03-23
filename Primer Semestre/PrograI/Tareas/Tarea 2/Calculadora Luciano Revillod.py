@@ -1,4 +1,5 @@
 #Defino terminos que ocupare frecuentemente en el codigo
+
 espacio = ("           ")
 side=("|                                                 |")
 suma = "+"
@@ -16,8 +17,10 @@ contador = 0
 print (separador)
 print ("|             Calculadora Cientifica              |")
 print (separador)
+
 #- Datos de entrada, variables y ciclos para repetir cada pregunta 3 y 2 veces respectivamente.
 #- Uso listas para mezclar los digitos y las operaciones ingresadas "[1,2,3] + [+,+] = [1+2+3]".
+
 while contador<3:
     print(side)
     numero = input("   - Ingrese un numero: ")
@@ -25,6 +28,7 @@ while contador<3:
     numero=0
     contador=contador+1
 contador=0
+
 while contador<2:
     print(side)
     operacion = input("   - Ingrese sus operaciones: ")
@@ -32,6 +36,7 @@ while contador<2:
     operacion=0
     contador=contador+1
 print(side)
+
 lista_fn = lista_n[0] + lista_ope[0] + lista_n[1] + lista_ope[1] + lista_n[2]
 print (("   - Usted ha Ingresado: "),(lista_fn))
 print(side)
@@ -120,4 +125,3 @@ if lista_ope[0] == resta and lista_ope[1] == division:
 print(side)
 print (separador)
 print(espacio)
-
